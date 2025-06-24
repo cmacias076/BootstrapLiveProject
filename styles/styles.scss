@@ -1,0 +1,12 @@
+$heading-size: 6rem;
+$content-size: 1.5rem;
+$hover-color: green;
+h1 {
+    font-size: $heading-size;
+}
+.content {
+    font-size: $content-size;
+    &:hover {
+        color: $hover-color;
+    }
+}
