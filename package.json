@@ -5,10 +5,10 @@
   "main": "js.index.js",
   "scripts": {
     "build": "webpack",
-    "dev": "webpack-dev-server --hot"
-    "deploy": "gh-pages -d dist",
+    "dev": "webpack-dev-server --hot",
+    "deploy": "gh-pages -d dist"
   },
-  "homepage": "cmacias076.github.io/bootstrap-webpack",
+  "homepage": "cmacias076.github.io/bootstrapliveproject",
   "keywords": [],
   "author": "",
   "license": "ISC",
