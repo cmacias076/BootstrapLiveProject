@@ -12,13 +12,10 @@ module.exports = {
     minimize: true,
     minimizer: [new TerserPlugin()],
   },
-  devServer: {
-    contentBase: path.resolve(__dirname, './dist'),
-    index: 'index.html',
+mode: 'development',
+devServer: {
     port: 5500
   },
-
-  mode: 'development',
   module: {
     rules: [
       {

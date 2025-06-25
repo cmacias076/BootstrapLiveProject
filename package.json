@@ -5,8 +5,8 @@
   "main": "js.index.js",
   "scripts": {
     "build": "webpack",
-    "dev": "webpack-dev-server --hot --open",
-    "deploy": "gh-pages -d dist"
+    "dev": "webpack-dev-server --hot"
+    "deploy": "gh-pages -d dist",
   },
   "homepage": "cmacias076.github.io/bootstrap-webpack",
   "keywords": [],
@@ -22,7 +22,9 @@
     "terser-webpack-plugin": "^5.3.14",
     "webpack": "^5.99.9",
     "webpack-cli": "^6.0.1",
-    "webpack-dev-server": "^5.2.2"
+    "webpack-dev-server": "^5.2.2",
+    "webpack-hot-middleware": "^2.26.1",
+    "webpack-hot-server": "^0.6.1"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
