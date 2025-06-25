@@ -5,6 +5,7 @@ import $ from 'jquery';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
 import '@fortawesome/fontawesome-free/js/all';
+import '../index.html';
 $(document).ready(function() {
 //Print the current time
 $('.js-content').html(`<i class="fas fa-clock"></i> ${ getDateString() }`)

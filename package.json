@@ -4,18 +4,25 @@
   "description": "",
   "main": "js.index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack-dev-server --hot --open",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "cmacias076.github.io/bootstrap-webpack",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
     "file-loader": "^6.2.0",
+    "gh-pages": "^6.3.0",
     "sass": "^1.89.2",
     "sass-loader": "^16.0.5",
     "style-loader": "^4.0.0",
+    "terser-webpack-plugin": "^5.3.14",
     "webpack": "^5.99.9",
-    "webpack-cli": "^6.0.1"
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
